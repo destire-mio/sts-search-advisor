@@ -1,0 +1,13 @@
+/build/
+/dist/
+/.tools/
+mod/target/
+mod/local.properties
+*.class
+*.jar
+__pycache__/
+*.pyc
+.DS_Store
+codex.log
+codex-final.md
+TASK.md

@@ -1,0 +1,10 @@
+{
+  "modid": "searchadvisor",
+  "name": "SearchAdvisor",
+  "author_list": ["SearchAdvisor contributors"],
+  "description": "Experimental Ironclad turn search. F8 search, F9 toggle auto, F10 stop. Simulator parity is INCOMPLETE.",
+  "version": "0.1.0",
+  "sts_version": "12-18-2022",
+  "mts_version": "3.30.0",
+  "dependencies": ["basemod"]
+}

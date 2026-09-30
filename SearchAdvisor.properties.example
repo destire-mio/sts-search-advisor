@@ -1,0 +1,9 @@
+# Copy next to SearchAdvisor.jar as SearchAdvisor.properties.
+# Optional JVM switches: -Dsearchadvisor.config=/path/file -Dsearchadvisor.engine=/path/executable
+searchKey=F8
+autoKey=F9
+stopKey=F10
+simulations=2000
+timeoutMs=5000
+# enginePath=searchadvisor-engine/macos-arm64/sts-search-server
+# Auto is always OFF at startup and when entering a combat; it is not persisted.

@@ -1,0 +1,5 @@
+# Absolute paths to installed files. This file is read by scripts/build_mod.py.
+# Alternatively pass -Dsts.jar=... -Dmts.jar=... -Dbasemod.jar=... to Maven.
+sts.jar=/absolute/path/desktop-1.0.jar
+mts.jar=/absolute/path/ModTheSpire.jar
+basemod.jar=/absolute/path/BaseMod.jar

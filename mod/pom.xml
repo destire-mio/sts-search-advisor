@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>local.searchadvisor</groupId><artifactId>SearchAdvisor</artifactId><version>0.1.0</version>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>8</maven.compiler.source><maven.compiler.target>8</maven.compiler.target>
+  </properties>
+  <!-- Local installed dependencies are read-only, never installed/copied/shaded. -->
+  <dependencies>
+    <dependency><groupId>local.sts</groupId><artifactId>desktop</artifactId><version>12-18-2022</version><scope>system</scope><systemPath>${sts.jar}</systemPath></dependency>
+    <dependency><groupId>local.sts</groupId><artifactId>modthespire</artifactId><version>3.30.0</version><scope>system</scope><systemPath>${mts.jar}</systemPath></dependency>
+    <dependency><groupId>local.sts</groupId><artifactId>basemod</artifactId><version>5.56.0</version><scope>system</scope><systemPath>${basemod.jar}</systemPath></dependency>
+  </dependencies>
+  <build>
+    <finalName>SearchAdvisor</finalName>
+    <plugins>
+      <plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-compiler-plugin</artifactId><version>3.13.0</version><configuration><release>8</release></configuration></plugin>
+      <plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-jar-plugin</artifactId><version>3.4.2</version></plugin>
+    </plugins>
+  </build>
+</project>

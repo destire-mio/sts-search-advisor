@@ -1,0 +1,11 @@
+{
+  "reference_root": "/Users/destire/Documents/ChatGPT/sljt/sts-rl-agent-principles",
+  "reference_head": "3f6467ff0b38e152ef147556e32cc0127b478ed2",
+  "files": {
+    "combat_engine/combat4r/engine-source/bindings/slaythespire.cpp": "86122360033f82ee7ffcba70851cd4e6290614d46d1a15dada0730f327d4862b",
+    "combat_engine/combat4r/engine-source/src/sim/search/BattleScumSearcher2.cpp": "2a3d46e9e0c59a80c8ec208554c511503739d445b8852628685f9dabbafd33ce",
+    "steam/steam_mcts.py": "c4f99a626882490490791aeacbc628aa1ef99b6f9f0754f40cbc06432732172b",
+    "steam/state_export_mod/src/steamstateexport/CombatStatePatch.java": "a159f780b8cb9fa40f8f3150514ff41d126d7391b83fa514914b4717c8c02bae",
+    "steam/state_export_mod/src/steamstateexport/FullRngState.java": "14a440f827a9561856289ed8e9a515e4fd33216282ff00d27eec85dfff1df20d"
+  }
+}
